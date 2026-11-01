@@ -4,7 +4,7 @@ import cloud.codestore.core.Snippet;
 import cloud.codestore.core.repositories.serialization.SnippetFileHelper;
 import cloud.codestore.core.repositories.serialization.SnippetReader;
 import cloud.codestore.core.repositories.serialization.SnippetWriter;
-import cloud.codestore.synchronization.ItemSet;
+import dev.systemout.synchronization.ItemSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

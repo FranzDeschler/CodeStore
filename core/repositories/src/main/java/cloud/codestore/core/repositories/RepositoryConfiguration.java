@@ -1,11 +1,11 @@
 package cloud.codestore.core.repositories;
 
-import cloud.codestore.synchronization.Status;
-import cloud.codestore.synchronization.helper.CsvMutableItemStatus;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import dev.systemout.synchronization.Status;
+import dev.systemout.synchronization.helper.CsvMutableItemStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -85,8 +86,12 @@ class RepositoryConfiguration {
 
     @Bean
     public Status getStatus(@Qualifier("sync") Directory syncDirectory) {
-        File statusFile = syncDirectory.getFile("SyncStatus.csv");
-        return CsvMutableItemStatus.loadSilently(statusFile.path());
-        // TODO log exception in case of error
+        Path statusFile = syncDirectory.getFile("SyncStatus.csv").path();
+        try {
+            return CsvMutableItemStatus.load(statusFile);
+        } catch (IOException e) {
+            LOGGER.error("Failed to load status file. Falling back to empty status.", e);
+            return CsvMutableItemStatus.empty(statusFile);
+        }
     }
 }

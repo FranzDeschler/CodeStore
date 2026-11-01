@@ -7,7 +7,7 @@ import cloud.codestore.core.repositories.serialization.SnippetWriter;
 import cloud.codestore.core.repositories.synchronization.service.GoogleDriveService;
 import cloud.codestore.core.usecases.synchronizesnippets.CloudService;
 import cloud.codestore.core.usecases.synchronizesnippets.SnippetSetFactory;
-import cloud.codestore.synchronization.ItemSet;
+import dev.systemout.synchronization.ItemSet;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 

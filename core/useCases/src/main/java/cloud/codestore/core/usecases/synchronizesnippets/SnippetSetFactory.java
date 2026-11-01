@@ -1,7 +1,7 @@
 package cloud.codestore.core.usecases.synchronizesnippets;
 
 import cloud.codestore.core.Snippet;
-import cloud.codestore.synchronization.ItemSet;
+import dev.systemout.synchronization.ItemSet;
 
 import javax.annotation.Nonnull;
 

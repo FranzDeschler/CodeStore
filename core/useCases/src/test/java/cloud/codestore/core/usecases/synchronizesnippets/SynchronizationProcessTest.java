@@ -1,9 +1,9 @@
 package cloud.codestore.core.usecases.synchronizesnippets;
 
 import cloud.codestore.core.Snippet;
-import cloud.codestore.synchronization.ItemSet;
-import cloud.codestore.synchronization.MutableItemSynchronization;
-import cloud.codestore.synchronization.Status;
+import dev.systemout.synchronization.ItemSet;
+import dev.systemout.synchronization.MutableItemSynchronization;
+import dev.systemout.synchronization.Status;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

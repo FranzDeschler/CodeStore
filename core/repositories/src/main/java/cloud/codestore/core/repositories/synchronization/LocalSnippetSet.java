@@ -6,7 +6,7 @@ import cloud.codestore.core.repositories.File;
 import cloud.codestore.core.repositories.serialization.SnippetFileHelper;
 import cloud.codestore.core.repositories.serialization.SnippetReader;
 import cloud.codestore.core.repositories.serialization.SnippetWriter;
-import cloud.codestore.synchronization.ItemSet;
+import dev.systemout.synchronization.ItemSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;

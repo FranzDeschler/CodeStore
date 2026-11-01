@@ -1,7 +1,7 @@
 package cloud.codestore.core.usecases.synchronizesnippets;
 
 import cloud.codestore.core.Snippet;
-import cloud.codestore.synchronization.ConflictResolver;
+import dev.systemout.synchronization.ConflictResolver;
 
 import java.time.OffsetDateTime;
 

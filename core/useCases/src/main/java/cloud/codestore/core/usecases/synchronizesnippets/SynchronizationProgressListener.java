@@ -1,6 +1,6 @@
 package cloud.codestore.core.usecases.synchronizesnippets;
 
-import cloud.codestore.synchronization.ProgressListener;
+import dev.systemout.synchronization.ProgressListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
