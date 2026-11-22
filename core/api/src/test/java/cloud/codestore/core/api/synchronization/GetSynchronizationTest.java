@@ -2,7 +2,7 @@ package cloud.codestore.core.api.synchronization;
 
 import cloud.codestore.core.api.AbstractControllerTest;
 import cloud.codestore.core.usecases.synchronizesnippets.*;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,7 +1,7 @@
 package cloud.codestore.core.api.tags;
 
 import cloud.codestore.core.api.UriFactory;
-import cloud.codestore.jsonapi.document.ResourceCollectionDocument;
+import dev.systemout.jsonapi.document.ResourceCollectionDocument;
 
 import javax.annotation.Nonnull;
 import java.util.Collection;

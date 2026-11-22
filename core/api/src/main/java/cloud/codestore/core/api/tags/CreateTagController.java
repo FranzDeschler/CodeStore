@@ -2,8 +2,8 @@ package cloud.codestore.core.api.tags;
 
 import cloud.codestore.core.usecases.createtag.CreateTag;
 import cloud.codestore.core.usecases.createtag.InvalidTagException;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
-import cloud.codestore.jsonapi.document.SingleResourceDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.SingleResourceDocument;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

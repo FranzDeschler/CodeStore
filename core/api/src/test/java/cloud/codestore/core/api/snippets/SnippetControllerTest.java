@@ -1,7 +1,7 @@
 package cloud.codestore.core.api.snippets;
 
 import cloud.codestore.core.api.AbstractControllerTest;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import org.springframework.test.web.servlet.ResultActions;
 
 import java.util.UUID;

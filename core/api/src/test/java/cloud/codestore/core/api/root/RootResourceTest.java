@@ -2,7 +2,7 @@ package cloud.codestore.core.api.root;
 
 import cloud.codestore.core.api.AbstractControllerTest;
 import cloud.codestore.core.usecases.synchronizesnippets.SynchronizationProcess;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

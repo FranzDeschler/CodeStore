@@ -1,7 +1,7 @@
 package cloud.codestore.core.api.root;
 
-import cloud.codestore.jsonapi.meta.MetaInformation;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import dev.systemout.jsonapi.meta.MetaInformation;
 
 class JsonApiMetaInformation implements MetaInformation {
     @JsonProperty("documentation")

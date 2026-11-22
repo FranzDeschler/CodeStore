@@ -8,11 +8,11 @@ import cloud.codestore.core.api.UriFactory;
 import cloud.codestore.core.api.languages.LanguageResource;
 import cloud.codestore.core.api.synchronization.SynchronizationProcessResource;
 import cloud.codestore.core.api.tags.TagCollectionResource;
-import cloud.codestore.jsonapi.relationship.Relationship;
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import dev.systemout.jsonapi.relationship.Relationship;
+import dev.systemout.jsonapi.resource.ResourceObject;
 import org.springframework.http.HttpMethod;
 
 import javax.annotation.Nonnull;

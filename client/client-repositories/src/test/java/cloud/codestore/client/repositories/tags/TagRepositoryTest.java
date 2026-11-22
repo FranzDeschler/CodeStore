@@ -1,7 +1,7 @@
 package cloud.codestore.client.repositories.tags;
 
 import cloud.codestore.client.repositories.HttpClient;
-import cloud.codestore.jsonapi.document.ResourceCollectionDocument;
+import dev.systemout.jsonapi.document.ResourceCollectionDocument;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -2,9 +2,9 @@ package cloud.codestore.core.api.synchronization;
 
 import cloud.codestore.core.api.ErrorResponseBuilder;
 import cloud.codestore.core.usecases.synchronizesnippets.SnippetSynchronizationState;
-import cloud.codestore.jsonapi.error.ErrorObject;
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonGetter;
+import dev.systemout.jsonapi.error.ErrorObject;
+import dev.systemout.jsonapi.resource.ResourceObject;
 
 import java.time.OffsetDateTime;
 

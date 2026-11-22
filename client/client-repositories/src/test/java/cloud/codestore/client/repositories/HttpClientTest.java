@@ -2,7 +2,7 @@ package cloud.codestore.client.repositories;
 
 import cloud.codestore.client.repositories.snippets.SnippetResource;
 import cloud.codestore.client.repositories.tags.TagResource;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 import okhttp3.mockwebserver.RecordedRequest;

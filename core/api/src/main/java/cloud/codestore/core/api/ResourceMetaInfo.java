@@ -1,7 +1,7 @@
 package cloud.codestore.core.api;
 
-import cloud.codestore.jsonapi.meta.MetaInformation;
 import com.fasterxml.jackson.annotation.JsonGetter;
+import dev.systemout.jsonapi.meta.MetaInformation;
 
 import javax.annotation.Nonnull;
 import java.util.List;

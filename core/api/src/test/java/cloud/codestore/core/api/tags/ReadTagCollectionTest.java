@@ -4,7 +4,7 @@ import cloud.codestore.core.Snippet;
 import cloud.codestore.core.api.AbstractControllerTest;
 import cloud.codestore.core.usecases.readsnippet.ReadSnippet;
 import cloud.codestore.core.usecases.readtags.ReadTags;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

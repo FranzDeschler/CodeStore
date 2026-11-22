@@ -3,7 +3,7 @@ package cloud.codestore.core.api.tags;
 import cloud.codestore.core.api.AbstractControllerTest;
 import cloud.codestore.core.usecases.createtag.CreateTag;
 import cloud.codestore.core.usecases.createtag.InvalidTagException;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

@@ -4,9 +4,9 @@ import cloud.codestore.core.Language;
 import cloud.codestore.core.api.languages.LanguageResource;
 import cloud.codestore.core.usecases.readlanguage.LanguageNotExistsException;
 import cloud.codestore.core.usecases.readlanguage.ReadLanguage;
-import cloud.codestore.jsonapi.relationship.Relationship;
-import cloud.codestore.jsonapi.relationship.ToOneRelationship;
-import cloud.codestore.jsonapi.resource.ResourceIdentifierObject;
+import dev.systemout.jsonapi.relationship.Relationship;
+import dev.systemout.jsonapi.relationship.ToOneRelationship;
+import dev.systemout.jsonapi.resource.ResourceIdentifierObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

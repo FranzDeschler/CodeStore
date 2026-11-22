@@ -2,7 +2,7 @@ package cloud.codestore.core.api.snippets;
 
 import cloud.codestore.core.Snippet;
 import cloud.codestore.core.usecases.listsnippets.*;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

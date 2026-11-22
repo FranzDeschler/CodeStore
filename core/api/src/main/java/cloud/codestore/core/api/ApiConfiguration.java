@@ -2,10 +2,10 @@ package cloud.codestore.core.api;
 
 import cloud.codestore.core.api.snippets.SnippetResource;
 import cloud.codestore.core.api.tags.TagResource;
-import cloud.codestore.jsonapi.JsonApiObjectMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import dev.systemout.jsonapi.JsonApiObjectMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

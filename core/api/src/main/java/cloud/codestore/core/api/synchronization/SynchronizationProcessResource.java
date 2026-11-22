@@ -4,9 +4,9 @@ import cloud.codestore.core.api.ErrorResponseBuilder;
 import cloud.codestore.core.api.UriFactory;
 import cloud.codestore.core.usecases.synchronizesnippets.SynchronizationProgress;
 import cloud.codestore.core.usecases.synchronizesnippets.SynchronizationState;
-import cloud.codestore.jsonapi.error.ErrorObject;
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonGetter;
+import dev.systemout.jsonapi.error.ErrorObject;
+import dev.systemout.jsonapi.resource.ResourceObject;
 
 import java.time.OffsetDateTime;
 

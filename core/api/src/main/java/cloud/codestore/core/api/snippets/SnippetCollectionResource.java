@@ -3,7 +3,7 @@ package cloud.codestore.core.api.snippets;
 import cloud.codestore.core.Language;
 import cloud.codestore.core.Snippet;
 import cloud.codestore.core.api.UriFactory;
-import cloud.codestore.jsonapi.document.ResourceCollectionDocument;
+import dev.systemout.jsonapi.document.ResourceCollectionDocument;
 
 import javax.annotation.Nonnull;
 import java.util.List;

@@ -1,9 +1,9 @@
 package cloud.codestore.core.api;
 
-import cloud.codestore.jsonapi.document.JsonApiDocument;
-import cloud.codestore.jsonapi.error.ErrorDocument;
-import cloud.codestore.jsonapi.error.ErrorObject;
-import cloud.codestore.jsonapi.error.ErrorSource;
+import dev.systemout.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.error.ErrorDocument;
+import dev.systemout.jsonapi.error.ErrorObject;
+import dev.systemout.jsonapi.error.ErrorSource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

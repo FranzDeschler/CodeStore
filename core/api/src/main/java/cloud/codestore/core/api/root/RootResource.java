@@ -6,9 +6,9 @@ import cloud.codestore.core.api.snippets.SnippetCollectionResource;
 import cloud.codestore.core.api.synchronization.SynchronizationProcessResource;
 import cloud.codestore.core.api.tags.TagCollectionResource;
 import cloud.codestore.core.usecases.synchronizesnippets.SynchronizationProcess;
-import cloud.codestore.jsonapi.relationship.Relationship;
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonGetter;
+import dev.systemout.jsonapi.relationship.Relationship;
+import dev.systemout.jsonapi.resource.ResourceObject;
 
 import javax.annotation.Nonnull;
 

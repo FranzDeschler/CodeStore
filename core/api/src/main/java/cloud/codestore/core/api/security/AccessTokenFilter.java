@@ -1,10 +1,10 @@
 package cloud.codestore.core.api.security;
 
 import cloud.codestore.core.api.ErrorResponseBuilder;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
-import cloud.codestore.jsonapi.error.ErrorDocument;
-import cloud.codestore.jsonapi.error.ErrorObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import dev.systemout.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.error.ErrorDocument;
+import dev.systemout.jsonapi.error.ErrorObject;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

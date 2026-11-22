@@ -3,7 +3,7 @@ package cloud.codestore.core.api.languages;
 import cloud.codestore.core.Language;
 import cloud.codestore.core.api.AbstractControllerTest;
 import cloud.codestore.core.usecases.readlanguage.ReadLanguage;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

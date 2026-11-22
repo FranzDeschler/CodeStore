@@ -2,8 +2,8 @@ package cloud.codestore.client.repositories.language;
 
 import cloud.codestore.client.Language;
 import cloud.codestore.client.repositories.HttpClient;
-import cloud.codestore.jsonapi.document.ResourceCollectionDocument;
-import cloud.codestore.jsonapi.document.SingleResourceDocument;
+import dev.systemout.jsonapi.document.ResourceCollectionDocument;
+import dev.systemout.jsonapi.document.SingleResourceDocument;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

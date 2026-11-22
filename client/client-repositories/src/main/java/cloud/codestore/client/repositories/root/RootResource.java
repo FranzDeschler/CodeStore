@@ -1,9 +1,9 @@
 package cloud.codestore.client.repositories.root;
 
-import cloud.codestore.jsonapi.relationship.Relationship;
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import dev.systemout.jsonapi.relationship.Relationship;
+import dev.systemout.jsonapi.resource.ResourceObject;
 
 /**
  * Represents the root resource of the {CodeStore} Core API.

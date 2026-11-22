@@ -5,8 +5,8 @@ import cloud.codestore.core.usecases.synchronizesnippets.SnippetSynchronizationS
 import cloud.codestore.core.usecases.synchronizesnippets.SnippetSynchronizations;
 import cloud.codestore.core.usecases.synchronizesnippets.SynchronizationNotExistsException;
 import cloud.codestore.core.usecases.synchronizesnippets.SynchronizationProcess;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
-import cloud.codestore.jsonapi.error.ErrorObject;
+import dev.systemout.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.error.ErrorObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

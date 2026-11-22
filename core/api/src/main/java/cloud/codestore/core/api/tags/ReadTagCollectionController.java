@@ -3,7 +3,7 @@ package cloud.codestore.core.api.tags;
 import cloud.codestore.core.SnippetNotExistsException;
 import cloud.codestore.core.usecases.readsnippet.ReadSnippet;
 import cloud.codestore.core.usecases.readtags.ReadTags;
-import cloud.codestore.jsonapi.document.JsonApiDocument;
+import dev.systemout.jsonapi.document.JsonApiDocument;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

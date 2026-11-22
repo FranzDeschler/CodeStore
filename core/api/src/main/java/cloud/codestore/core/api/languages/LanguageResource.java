@@ -2,9 +2,9 @@ package cloud.codestore.core.api.languages;
 
 import cloud.codestore.core.Language;
 import cloud.codestore.core.api.snippets.SnippetCollectionResource;
-import cloud.codestore.jsonapi.relationship.Relationship;
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonGetter;
+import dev.systemout.jsonapi.relationship.Relationship;
+import dev.systemout.jsonapi.resource.ResourceObject;
 
 import javax.annotation.Nonnull;
 

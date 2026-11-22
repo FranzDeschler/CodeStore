@@ -17,12 +17,12 @@ import cloud.codestore.client.usecases.listsnippets.*;
 import cloud.codestore.client.usecases.readsnippet.ReadSnippetUseCase;
 import cloud.codestore.client.usecases.updatesnippet.UpdateSnippetUseCase;
 import cloud.codestore.client.usecases.updatesnippet.UpdatedSnippetDto;
-import cloud.codestore.jsonapi.document.SingleResourceDocument;
-import cloud.codestore.jsonapi.link.Link;
-import cloud.codestore.jsonapi.relationship.ToManyRelationship;
-import cloud.codestore.jsonapi.relationship.ToOneRelationship;
-import cloud.codestore.jsonapi.resource.ResourceIdentifierObject;
-import cloud.codestore.jsonapi.resource.ResourceObject;
+import dev.systemout.jsonapi.document.SingleResourceDocument;
+import dev.systemout.jsonapi.link.Link;
+import dev.systemout.jsonapi.relationship.ToManyRelationship;
+import dev.systemout.jsonapi.relationship.ToOneRelationship;
+import dev.systemout.jsonapi.resource.ResourceIdentifierObject;
+import dev.systemout.jsonapi.resource.ResourceObject;
 import org.springframework.util.StringUtils;
 import org.springframework.web.util.UriComponentsBuilder;
 

@@ -1,11 +1,11 @@
 package cloud.codestore.core.api.tags;
 
 import cloud.codestore.core.api.snippets.SnippetCollectionResource;
-import cloud.codestore.jsonapi.relationship.Relationship;
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import dev.systemout.jsonapi.relationship.Relationship;
+import dev.systemout.jsonapi.resource.ResourceObject;
 
 import javax.annotation.Nonnull;
 import java.net.URLEncoder;

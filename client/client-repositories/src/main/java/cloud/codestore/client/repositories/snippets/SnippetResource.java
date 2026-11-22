@@ -2,12 +2,12 @@ package cloud.codestore.client.repositories.snippets;
 
 import cloud.codestore.client.repositories.language.LanguageResource;
 import cloud.codestore.client.repositories.tags.TagResource;
-import cloud.codestore.jsonapi.relationship.ToManyRelationship;
-import cloud.codestore.jsonapi.relationship.ToOneRelationship;
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import dev.systemout.jsonapi.relationship.ToManyRelationship;
+import dev.systemout.jsonapi.relationship.ToOneRelationship;
+import dev.systemout.jsonapi.resource.ResourceObject;
 
 import java.time.OffsetDateTime;
 

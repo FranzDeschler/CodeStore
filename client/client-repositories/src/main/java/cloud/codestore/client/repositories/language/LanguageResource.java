@@ -1,8 +1,8 @@
 package cloud.codestore.client.repositories.language;
 
-import cloud.codestore.jsonapi.resource.ResourceObject;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import dev.systemout.jsonapi.resource.ResourceObject;
 
 public class LanguageResource extends ResourceObject {
     public static final String RESOURCE_TYPE = "language";

@@ -1,9 +1,9 @@
 package cloud.codestore.client.repositories;
 
-import cloud.codestore.jsonapi.meta.MetaDeserializer;
-import cloud.codestore.jsonapi.meta.MetaInformation;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import dev.systemout.jsonapi.meta.MetaDeserializer;
+import dev.systemout.jsonapi.meta.MetaInformation;
 
 import java.util.List;
 
